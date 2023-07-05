@@ -9,7 +9,11 @@
 </head>
 <body>
 
-  {{ content | safe }}
-  
+    {% include "../components/navbar.njk" %}
+
+    {{ content | safe }}
+
+    {% include "../components/footer.html" %}
+
 </body>
 </html>
