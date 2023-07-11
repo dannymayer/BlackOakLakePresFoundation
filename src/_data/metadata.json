@@ -1,0 +1,13 @@
+{
+    "siteTitle": "Black Oak Lake Preservation Foundation",
+    "siteDescription": "The home page for the Black Oak Lake Preservation Foundation and a repository of events and information about our community",
+    "url": "blackoaklake.com",
+    "language": "en",
+    "keywords": "Black Oak Lake, Wisconsin, Land O Lakes",
+    "author": {
+      "name": "J Smith",
+      "email": "jsmith@gmail.com",
+      "phone": "(800)867-5309"
+    },
+    "cover": "/img/BOL-Arial.jpg" 
+}

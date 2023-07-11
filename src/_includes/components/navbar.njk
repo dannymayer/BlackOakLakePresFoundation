@@ -1,7 +1,10 @@
-<nav>
-  <ul class="flex">
-    {%- for nav in collections.nav -%}
-    <li class="mr-6"><a href="{{ nav.url | url}}">{{ nav.data.navtitle }}</a></li>
-    {%- endfor -%}
-  </ul>
+<nav class="bg-green">
+  <div class="mx-auto px-8">
+    <ul class="flex">
+      <li><img src="../../img/BOL Outline.png" class="w-16 p-2" />
+      {%- for nav in collections.nav -%}
+      <li class="mr-6"><a href="{{ nav.url | url}}">{{ nav.data.navtitle }}</a></li>
+      {%- endfor -%}
+    </ul>
+  </div>
 </nav>
